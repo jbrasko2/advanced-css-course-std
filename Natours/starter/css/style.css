@@ -96,7 +96,6 @@ body {
   border-radius: 100px;
   transition: all 0.2s;
   position: relative;
-  animation: moveInButton 1s ease-in-out;
 }
 
 .btn:hover {
@@ -137,7 +136,8 @@ body {
 }
 
 .btn-animated {
-  animation: moveInButton 0.5s ease-out;
+  animation: moveInButton 0.5s ease-out .5s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes moveInLeft {

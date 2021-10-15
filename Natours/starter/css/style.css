@@ -11,7 +11,7 @@ Dark: #28b485
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
@@ -21,6 +21,8 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 30px;
+
+  box-sizing: border-box
 }
 
 .header {

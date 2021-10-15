@@ -8,7 +8,9 @@ Dark: #28b485
 */
 
 /* Basic Reset */
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;

@@ -34,8 +34,7 @@ nav {
   color: #333;
 }
 
-.button-main:link,
-.button-hot:link {
+.button-main:link, .button-hot:link {
   padding: 10px;
   display: inline-block;
   text-align: center;

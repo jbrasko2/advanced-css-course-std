@@ -31,4 +31,23 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.button-main:link,
+.button-hot:link {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.button-main:link {
+  background-color: #f08a5d;
+}
+
+.button-main:hover {
+  background-color: #ea5717;
+}
 /*# sourceMappingURL=nav.css.map */

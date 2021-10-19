@@ -41,13 +41,30 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   width: 150px;
+  color: #fee;
 }
 
 .button-main:link {
   background-color: #f08a5d;
 }
 
+.button-main:visited {
+  color: #fee;
+}
+
 .button-main:hover {
   background-color: #ea5717;
+}
+
+.button-hot:link {
+  background-color: #b83b5e;
+}
+
+.button-hot:visited {
+  color: #fee;
+}
+
+.button-hot:hover {
+  background-color: #d16f8a;
 }
 /*# sourceMappingURL=nav.css.map */

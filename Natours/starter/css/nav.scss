@@ -6,6 +6,7 @@
 $color-primary: #f9ed69;
 $color-secondary: #f08a5d;
 $color-tertiary: #b83b5e;
+$color-text-light: #fee;
 
 $width-button: 150px;
 
@@ -43,6 +44,7 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   width: $width-button;
+  color: $color-text-light;
 }
 
 .button-main {
@@ -50,7 +52,25 @@ nav {
     background-color: $color-secondary;
   }
 
+  &:visited {
+    color: $color-text-light;
+  }
+
   &:hover {
     background-color: darken($color-secondary, 15%);
+  }
+}
+
+.button-hot {
+  &:link {
+    background-color: $color-tertiary;
+  }
+
+  &:visited {
+    color: $color-text-light;
+  }
+
+  &:hover {
+    background-color: lighten($color-tertiary, 15%);
   }
 }

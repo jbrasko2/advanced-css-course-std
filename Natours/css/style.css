@@ -84,8 +84,7 @@ body {
           animation: moveInRight 1s ease-in-out;
 }
 
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -103,6 +102,14 @@ body {
           box-shadow: 0 10px 20px black;
 }
 
+.btn:hover::after {
+  -webkit-transform: scaleX(1.4) scaleY(1.6);
+          transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 .btn:active {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
@@ -115,6 +122,10 @@ body {
   color: #777;
 }
 
+.btn--white::after {
+  background-color: #fff;
+}
+
 .btn::after {
   content: '';
   display: inline-block;
@@ -125,18 +136,6 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.btn--white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  -webkit-transform: scaleX(1.4) scaleY(1.6);
-          transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
 }
 
 .btn--animated {

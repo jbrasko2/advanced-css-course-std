@@ -249,4 +249,15 @@ body {
           transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.row {
+  max-width: 1140px;
+  background-color: #eee;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 80px;
+}
 /*# sourceMappingURL=style.css.map */

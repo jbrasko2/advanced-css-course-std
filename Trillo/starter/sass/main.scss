@@ -25,11 +25,15 @@ Grey dark 3: #999
 .container {
   background-color: #ccc;
   padding: 10px;
+  height: 1000px;
 
   display: flex;
   flex-direction: row; // Default, not neccessary
   justify-content: space-between; // center, space-around, space-between, space-evenly
   align-items: center; // baseline: align text
+
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .item {
@@ -48,7 +52,7 @@ Grey dark 3: #999
 }
 
 .i3 {
-  order: -2;
+  order: 1;
   flex: 1;
 }
 

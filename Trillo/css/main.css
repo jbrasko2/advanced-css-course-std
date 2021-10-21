@@ -25,6 +25,19 @@ Grey dark 3: #999
 .container {
   background-color: #ccc;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .item {
@@ -33,5 +46,13 @@ Grey dark 3: #999
   margin: 30px;
   color: #fff;
   font-size: 40px;
+}
+
+.i2 {
+  height: 200px;
+}
+
+.i4 {
+  font-size: 70px;
 }
 /*# sourceMappingURL=main.css.map */

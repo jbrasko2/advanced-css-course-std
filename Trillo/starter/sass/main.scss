@@ -25,6 +25,11 @@ Grey dark 3: #999
 .container {
   background-color: #ccc;
   padding: 10px;
+
+  display: flex;
+  flex-direction: row; // Default, not neccessary
+  justify-content: center; // or space-around, space-between, space-evenly
+  align-items: baseline; // baseline: align text
 }
 
 .item {
@@ -33,4 +38,12 @@ Grey dark 3: #999
   margin: 30px;
   color: #fff;
   font-size: 40px;
+}
+
+.i2 {
+  height: 200px;
+}
+
+.i4 {
+  font-size: 70px;
 }

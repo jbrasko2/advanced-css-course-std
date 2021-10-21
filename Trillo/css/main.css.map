@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAAA;;;;;;;;;;;;;;;;EAgBE",
+    "mappings": "ACAA;;;;;;;;;;;;;;;;EAgBE;AAEF,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
     "sources": [
-        "../starter/sass/main.scss"
+        "../starter/sass/main.scss",
+        "../starter/sass/_base.scss",
+        "../starter/sass/_components.scss",
+        "../starter/sass/_layout.scss"
     ],
     "names": [],
     "file": "main.css"

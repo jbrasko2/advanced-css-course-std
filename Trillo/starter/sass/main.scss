@@ -42,10 +42,14 @@ Grey dark 3: #999
 
 .i2 {
   height: 200px;
+  // flex-basis: 300px;
+  // flex-shrink: 0;
+  flex: 0 1 300px // flex-grow, flex-shrink, flex-basis
 }
 
 .i3 {
   order: -2;
+  flex: 1;
 }
 
 .i4 {

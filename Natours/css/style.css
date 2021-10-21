@@ -254,10 +254,25 @@ body {
   max-width: 1140px;
   background-color: #eee;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .row:not(:last-child) {
   margin-bottom: 80px;
+}
+
+::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-1-of-2 {
+  width: calc((100% - 60px) / 2);
+  background-color: orangered;
+  float: left;
+}
+
+.col-1-of-2:not(:last-child) {
+  margin-right: 60px;
 }
 /*# sourceMappingURL=style.css.map */

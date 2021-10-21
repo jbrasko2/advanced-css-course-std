@@ -28,8 +28,8 @@ Grey dark 3: #999
 
   display: flex;
   flex-direction: row; // Default, not neccessary
-  justify-content: center; // or space-around, space-between, space-evenly
-  align-items: baseline; // baseline: align text
+  justify-content: space-between; // center, space-around, space-between, space-evenly
+  align-items: center; // baseline: align text
 }
 
 .item {
@@ -44,6 +44,11 @@ Grey dark 3: #999
   height: 200px;
 }
 
+.i3 {
+  order: -2;
+}
+
 .i4 {
-  font-size: 70px;
+  align-self: flex-end;
+  order: -1;
 }

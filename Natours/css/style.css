@@ -282,4 +282,20 @@ body {
 .col-1-of-3 {
   width: calc((100% - (60px * 2)) / 3);
 }
+
+.col-1-of-4 {
+  width: calc((100% - (60px * 3)) / 4);
+}
+
+.col-2-of-3 {
+  width: calc( (((100% - (60px * 2)) / 3) * 2) + 60px);
+}
+
+.col-2-of-4 {
+  width: calc( (((100% - (60px * 3)) / 4) * 2) + 60px);
+}
+
+.col-3-of-4 {
+  width: calc( (((100% - (60px * 3)) / 4) * 3) + (60px * 2));
+}
 /*# sourceMappingURL=style.css.map */

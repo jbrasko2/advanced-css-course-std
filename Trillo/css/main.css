@@ -18,6 +18,16 @@ Grey dark 3: #999
 * {
   margin: 0;
   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

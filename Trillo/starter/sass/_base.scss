@@ -16,12 +16,15 @@ Grey dark 3: #999
 
 */
 
+<<<<<<< HEAD
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
   --color-primary-dark: #ba265d;
 }
 
+=======
+>>>>>>> ec30ccbc4ed0e475b9f773832a209f1077040735
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +38,7 @@ Grey dark 3: #999
 
 html {
   box-sizing: border-box;
+<<<<<<< HEAD
   // font-size: 62.5%;  1rem = 10px, 16px is browser default
 }
 
@@ -51,4 +55,6 @@ body {
   background-repeat: no-repeat;
 
   min-height: 100vh;
+=======
+>>>>>>> ec30ccbc4ed0e475b9f773832a209f1077040735
 }

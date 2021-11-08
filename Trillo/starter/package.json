@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "Trillo",
   "version": "1.0.0",
   "description": "trillo app",
+=======
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Landing page for Trillo",
+>>>>>>> ec30ccbc4ed0e475b9f773832a209f1077040735
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -12,7 +18,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
-  "author": "Jonas",
+  "author": "Jordan",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",

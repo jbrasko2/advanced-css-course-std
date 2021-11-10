@@ -121,11 +121,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #777;
+  color: rgba(119, 119, 119, 0.959);
 }
 
 .heading-primary {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.959);
   text-transform: uppercase;
   margin-bottom: 60px;
   /* Fix shake in animation */
@@ -193,12 +193,12 @@ body {
 }
 
 .btn--white {
-  background-color: #fff;
-  color: #777;
+  background-color: rgba(255, 255, 255, 0.959);
+  color: rgba(119, 119, 119, 0.959);
 }
 
 .btn--white::after {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.959);
 }
 
 .btn::after {
